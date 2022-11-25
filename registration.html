@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="images/">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+</head>
+
+<body>
+    <header>
+
+        <div id="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div id="logo2">
+            <img src="images/logo2.png" alt="">
+        </div>
+        <div id="siteTitle">
+            KHOA CNTT&TT
+        </div>
+        <div id="siteTitle2">
+            Hệ Thống Quản Lý Đào Tạo
+        </div>
+        <nav>
+            <a href="index.html">Trang Chủ</a> <span>|</span>
+            <a href="">Giới Thiệu</a>
+            <span id="login">
+                <a href="login.html">Đăng nhập</a> <span>|</span>
+                <a href="registration.html">Đăng Ký</a>
+            </span>
+        </nav>
+
+    </header>
+    <main>
+        <div class="mainLetf">
+            <div class="group-box">
+                <div class="leftMenu">
+                    <div class="title">
+                        Thông tin Đăng ký
+                    </div>
+                    <table>
+                        <tr class="lable_th">
+                            <th>
+                                <label for="mssv">MSSV: </label>
+                            </th>
+                            <th class="input_data">
+                                <input id="mssv" type="text">
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th class="lable_th">
+                                <label for="">Họ tên: </label>
+                            </th>
+                            <th class="input_data">
+                                <input type="text">
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th class="lable_th">
+                                <label for="gt">Giới tính: </label>
+                            </th>
+                            <th id="gt" class="input_data">
+                                <input id="Nam" type="radio" name="memberType">
+                                <label for="Nam">Nam</label>
+                                <input id="Nu" type="radio" name="memberType">
+                                <label for="Nu">Nữ</label>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th class="lable_th">
+                                <label for="date">Ngày sinh: </label>
+                            </th>
+                            <th class="input_data">
+                                <input id="date" type="date">
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th class="lable_th">
+                                <label for="quequan">Quê quán: </label>
+                            </th>
+                            <th class="input_data">
+                                <textarea id="quequan" cols="20" rows="2"></textarea>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th class="lable_th">
+                                <label for="">SĐT: </label>
+                            </th>
+                            <th class="input_data">
+                                <input id="numberphone" type="number">
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th class="lable_th">
+                                <label for="mail">E-mail: </label>
+                            </th>
+                            <th class="input_data">
+                                <input id="mail" type="email" placeholder="lvquan@gmail.com">
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th class="lable_th">
+                                <label  for="img">Ảnh đại diện: </label>
+                            </th>
+                            <th class="input_data">
+                                <input id="img" type="file">
+                            </th>
+                        </tr>
+                        <tr>
+                            <th class="lable_th">
+                                <label for="pass">Mật khẩu: </label>
+                            </th>
+                            <th class="input_data">
+                                <input id="pass" type="password" placeholder="8 - 20 kí tự">
+                            </th>
+                        </tr>
+                        <tr>
+                            <th class="lable_th">
+                                <label for="pass2">Nhập lại MK: </label>
+                            </th>
+                            <th class="input_data">
+                                <input id="pass2" type="password" value="123456">
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+
+                            </th>
+                            <th class="input_data">
+                                <input type="submit" value="Đăng ký">
+                                <input type="reset" value="Hủy">
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Copyright &copy; 2020
+    </footer>
+</body>
+
+
+</html>
